@@ -5,6 +5,7 @@ Summary:	A follow the mouse X demo
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:	MIT
+BuildRoot:	%{_tmppath}/%{name}-root
 
 BuildRequires:	libx11-devel >= 1.0.0
 BuildRequires:	libxext-devel >= 1.0.0
