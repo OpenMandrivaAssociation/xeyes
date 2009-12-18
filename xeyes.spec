@@ -1,6 +1,6 @@
 Name:		xeyes
-Version:	1.0.1
-Release:	%mkrel 7
+Version:	1.1.0
+Release:	%mkrel 1
 Summary:	A follow the mouse X demo
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
@@ -36,4 +36,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xeyes
-%{_mandir}/man1/xeyes.1x*
+%{_mandir}/man1/xeyes.1*
