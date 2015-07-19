@@ -1,6 +1,6 @@
 Name:		xeyes
 Version:	1.1.1
-Release:	11
+Release:	12
 Summary:	A follow the mouse X demo
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
